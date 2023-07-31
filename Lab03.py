@@ -21,6 +21,6 @@ for i in range(minimum1, maximum1 + 1):
 word = "Mississippi"
 count = 0
 for i in word:
-    if i == "s":
+    if i == "S" or i == "s":
         count = count + 1
-print(count)
+print(f"There are {count} S's in the word Mississippi")
